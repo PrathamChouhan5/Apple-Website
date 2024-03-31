@@ -1,0 +1,260 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: gilroy;
+} 
+html, body { 
+    height: 100%; 
+    width: 100%; 
+}  
+#Page1{ 
+    height: 100%; 
+    width: 100%; 
+    background-color: #000; 
+}
+#nav {  
+    top: 0;
+    height: 42px;
+    width: 100% ; 
+    background-color: #474747; 
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly; 
+    padding-left: 10%;
+    padding-right: 12%;  
+    position: fixed;  
+    z-index: 99;
+} 
+h5{    
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 10;
+    color:rgba(255, 255, 255, 0.795);
+}  
+h5:hover{  
+    font-size: 13px; 
+    font-weight: 800;
+}
+#nav i{  
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.795);
+}   
+#nav i:hover{  
+    color: #fff;
+    font-size: 18px; 
+    font-weight: 800;
+}
+#nav2{  
+    margin-top: 40px;
+    height: 52px;
+    width: 100% ; 
+    background-color: #fff; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 14.5px; 
+    font-weight: 10 ; 
+    color: rgb(94, 92, 92);
+} 
+#nav2 a {  
+    text-decoration: none; 
+    color: royalblue; 
+} 
+#nav2 a:hover{ 
+    text-decoration: underline;
+}  
+#blackpage {   
+    height: 92.2%; 
+    width: 100%;
+    background-image: url(./iphone14.jpg);
+    background-position: center; 
+    position: relative;
+}
+h1 { 
+    font-size: 55px;  
+    font-weight: 550;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    padding-top: 50px;
+    color: #fff;
+} 
+h3{ 
+    font-size: 28px;  
+    font-weight: 550;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    color: #fff;
+}  
+#blackpage #links{    
+    position: absolute;  
+    top: 29%;
+    left: 50%; 
+    transform: translate(-50%,0);
+} 
+#links a{  
+    font-size: 22px; 
+    margin-right: 20px; 
+    margin-left: 15px;
+    text-decoration: none; 
+    color: royalblue;
+}  
+#links a:hover{ 
+    text-decoration: underline;
+}
+#page2{  
+    width: 100%; 
+    height: 100%;
+    background-image: url(./iphones.jpg ); 
+    background-size: cover; 
+    background-position: center; 
+    position: relative;
+} 
+#page2 h1{ 
+    color: #000;
+} 
+#page2 h3{ 
+    color: #000;
+} 
+#page2 #links{    
+    position: absolute;  
+    top: 25%;
+    left: 50%; 
+    transform: translate(-50%,0);
+} 
+#links a{  
+    font-size: 22px; 
+    margin-right: 20px; 
+    margin-left: 15px;
+    text-decoration: none; 
+    color: royalblue;
+}  
+#page3{   
+    height: 100%; 
+    width: 100%; 
+    background-image: url(./iWatch.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    position: relative;
+} 
+#page3 h1 {  
+    padding-left: 20px;
+    font-weight: 600;
+} 
+#page3 h4{ 
+    font-size: 20px;  
+    font-weight: 550; 
+    letter-spacing: 3px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    color: #d42020;
+}
+#page3 #links{ 
+    position: absolute;  
+    top: 29%;
+    left: 50%; 
+    transform: translate(-50%,0);
+} 
+#page3 i{  
+    position: absolute; 
+    left: 40%; 
+    top: 8.2%; 
+    font-size: 52px;
+    color: #fff;
+}   
+#page4{ 
+    height: 100%; 
+    width: 100%; 
+    background-color: #fff; 
+    display: flex; 
+    position: relative;
+}  
+#page4 #white{ 
+    margin-top: 20px; 
+    margin-left: 20px; 
+    margin-bottom: 20px;
+    height: 95%; 
+    width: 48%; 
+    background-image: url(./apple2.jpg);
+    background-size: cover; 
+    background-position: center;
+} 
+#page4 #white h1{ 
+    color: #000;
+}
+#page4 #white i{  
+    position: absolute; 
+    left: 16.7%; 
+    top: 10.5%; 
+    font-size: 45px;
+    color: #000;
+}   
+#white h1{ 
+    font-size: 43px ; 
+} 
+#white h3{  
+    padding-top: 7px;
+    color: #000; 
+    font-size: 22px;
+}  
+#white #links{ 
+    position: absolute;
+    transform: translate(-50%,0) ;  
+    left: 27%; 
+    top: 25%;
+} 
+#white #links a{ 
+    font-size: 19px;
+} 
+#page4 #black{    
+    position: absolute;
+    right: 0; 
+    top: 0%;
+    margin: 20px; 
+    height:95% ; 
+    width: 48%; 
+    background-color: #000;
+}  
+
+#black img{ 
+    height: 44%; 
+    width: 87%; 
+    position: absolute; 
+    top: 18%; 
+    left: 7.7%; 
+} 
+#page4 #black h1{ 
+    color: #fff;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;  
+    font-weight: 800;
+    position: absolute; 
+    left: 37%; 
+    top: 63%;
+} 
+#page4 #black i{ 
+    color: #fff; 
+    top: 71%; 
+    left: 30%;
+} 
+#page4 #black h3{ 
+    color: #fff; 
+    font-size: 20px; 
+    text-align: center;  
+    position: absolute ;
+    left: 20%;
+    top: 78.4%;
+} 
+#black a{ 
+    color: royalblue;  
+    position: absolute;
+    top: 89%; 
+    left: 42%; 
+    text-decoration: none;
+} 
+#black a:hover{ 
+    text-decoration: underline;
+}
